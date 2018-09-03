@@ -1,0 +1,41 @@
+/*Cascading Style Sheet 1*/
+
+body {
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	height: 300px;
+	width: 22%;
+	padding: 0;
+}
+
+.red {
+	background-color: #EA4335;
+}
+
+.blue {
+	background-color: #4285F4;
+}
+
+.green {
+	background-color: #34A853;
+}
+
+.yellow {
+	background-color: #FBBC05;
+}
+
+.container {
+	height: 200px;
+	width: 200px;
+	background-color: black;
+	color: #fff;
+}
+
+@media (min-width: 1000px) {
+	.box{
+		width: 100%;
+	}
+} 
